@@ -25,7 +25,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 CONFIG += c++11
-CONFIG += resources_big
 
 SOURCES += \
         main.cpp \
@@ -36,7 +35,7 @@ SOURCES += \
     Start_page.cpp \
     musiccontrols.cpp \
     cube_ui.cpp \
-    ../core/player.cpp
+    map.cpp
 
 HEADERS += \
     resources_ui.h \
@@ -46,15 +45,15 @@ HEADERS += \
     Start_page.h \
     musiccontrols.h \
     cube_ui.h \
-    ../core/player.h \
-    ../core/BaseField.h
+    map.h
 
 FORMS += \
     mainwindow.ui \
     player_selection.ui \
     Start_page.ui \
     musiccontrols.ui \
-    cube_ui.ui
+    cube_ui.ui \
+    map.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
