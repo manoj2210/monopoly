@@ -10,7 +10,13 @@ Token::Token(QWidget *parent) :
     this->setWindowFlag(Qt::FramelessWindowHint);
 }
 
+void Token::setCompanyName(QString m)
+{
+    ui->Companyname->setText(m);
+}
+
 Token::~Token()
 {
     delete ui;
 }
+
