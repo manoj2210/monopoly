@@ -22,7 +22,7 @@ The 3d objects made with the help of Blender, constructs the city for the game.
 ![Rolls Royce](./screenshots/rollsroyce.png)
 > Rolls Royce
 
-![Stadium](./screenshots/stadium.png)
+![Stadium](./screenshots/Stadium.png)
 > Stadium
 
 
